@@ -1,0 +1,149 @@
+{
+  "Owner": {
+    "name": "Server Owner",
+    "group": [
+      "Owner",
+      "OP",
+      "Admin",
+      "User",
+    ],
+    "auth": {
+      "pass_hash": "",
+      "pass_salt": "",
+      "token": "",
+      "date": "",
+      "allowed_ips": [
+        "127.0.0.1",
+        "192.168.0.*",
+        "10.0.0.*",
+        "*.local",
+      ],
+    },
+    "permission": [
+      "*",
+      "admin.*",
+      "user.*"
+    ]
+  },
+
+  "username": {
+    "name": "Display Name",
+    "group": [
+      "Admin",
+      "User"
+    ],
+    "servers": [
+      "*"
+    ],
+    "permission": [
+      "*"
+    ],
+    "auth": {
+      "password": {
+        "hash": "",
+        "salt": "",
+        "date": "",
+        "allowed_ips": [
+          "*.local",
+          "192.168.0.*",
+          "10.0.0.*",
+          "127.0.0.1"
+        ],
+        "history": {
+          "2020-04-20T06:09:00+0400": "HASH"
+        }
+      },
+      "tokens": {
+        "TOKEN_ID": {
+          "id": "MC-SERVERS",
+          "hash": "",
+          "date": "2020-04-20T06:09:00+0400",
+          "allowed_ip": [
+            "*.local",
+            "192.168.0.*",
+            "10.0.0.*",
+            "127.0.0.1"
+          ],
+          "": "",
+        },
+      }
+    }
+  },
+
+  "": {
+    "name": "Minecraft Staff",
+    "group": [
+      "Staff",
+      "Servers-Minecraft"
+    ],
+    "permission": [],
+    "auth": {
+      "password": {
+        "hash": "",
+        "salt": "",
+        "date": "",
+        "allowed_ips": [
+          "*.local",
+          "192.168.0.*",
+          "10.0.0.*",
+          "127.0.0.1"
+        ],
+        "history": {
+          "2020-04-20T06:09:00+0400": "HASH"
+        }
+      },
+      "token": [
+        {
+          "id": "MC-SERVERS",
+          "hash": "",
+          "date": "2020-04-20T06:09:00+0400",
+          "allowed_ip": [
+            "*.local",
+            "192.168.0.*",
+            "10.0.0.*",
+            "127.0.0.1"
+          ]
+        }
+      ]
+    }
+  },
+
+  "mc-staff": {
+    "name": "Minecraft Staff",
+    "group": [
+      "Staff",
+      "Servers-Minecraft"
+    ],
+    "permission": [],
+    "auth": {
+      "password": {
+        "hash": "",
+        "salt": "",
+        "date": "",
+        "allowed_ips": [
+          "*.local",
+          "192.168.0.*",
+          "10.0.0.*",
+          "127.0.0.1"
+        ],
+        "history": {
+          "2020-04-20T06:09:00+0400": "HASH"
+        }
+      },
+      "token": [
+        {
+          "id": "MC-SERVERS",
+          "hash": "",
+          "date": "2020-04-20T06:09:00+0400",
+          "allowed_ip": [
+            "*.local",
+            "192.168.0.*",
+            "10.0.0.*",
+            "127.0.0.1"
+          ]
+        }
+      ]
+    }
+  }
+
+}
